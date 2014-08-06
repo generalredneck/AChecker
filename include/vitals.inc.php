@@ -50,7 +50,10 @@ function unregister_GLOBALS() {
 
 /**** 0. start system configuration options block ****/
 error_reporting(0);
-include_once(AC_INCLUDE_PATH.'config.inc.php');
+if (!defined('AC_INCLUDE_CONFIG_PATH') || !AC_INCLUDE_CONFIG_PATH) {
+  throw new \RuntimeException('You must define the constant `AC_INCLUDE_CONFIG_PATH` !');
+}
+include_once(AC_INCLUDE_CONFIG_PATH . 'achecker_config.php');
 error_reporting(AC_ERROR_REPORTING);
 
 if (!defined('AC_INSTALL') || !AC_INSTALL) {

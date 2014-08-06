@@ -1,0 +1,20 @@
+{
+    "repositories": {
+        "AChecker": {
+            "type": "package",
+            "package": {
+                "name": "fidesio-xavier-masson/AChecker",
+                "description": "AChecker forked version with configuration out of the vendor/.",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/fidesio-xavier-masson/AChecker",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    },
+    "require": {
+        "fidesio-xavier-masson/AChecker": "dev-master"
+    }
+}
