@@ -7,7 +7,7 @@
                 "description": "AChecker forked version with configuration out of the vendor/.",
                 "version": "dev-master",
                 "source": {
-                    "url": "https://github.com/fidesio-xavier-masson/AChecker",
+                    "url": "https://github.com/fidesio-xavier-masson/AChecker.git",
                     "type": "git",
                     "reference": "master"
                 }
