@@ -1,5 +1,5 @@
 # Drop table 'language_text'
-DROP TABLE `language_text`;
+DROP TABLE IF EXISTS `language_text`;
 
 # Table structure for table 'language_text'
 #
