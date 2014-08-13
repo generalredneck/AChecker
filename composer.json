@@ -1,0 +1,8 @@
+{
+	"name": "fidesio/AChecker",
+	"homepage": "http://github.com/fidesio/AChecker",
+
+	"autoload": {
+        "classname": ["vendor/fidesio-xavier-masson/AChecker/include"]
+    },
+}
