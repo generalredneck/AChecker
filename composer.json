@@ -3,6 +3,6 @@
 	"homepage": "http://github.com/fidesio/AChecker",
 
 	"autoload": {
-        "classmap": ["vendor/fidesio-xavier-masson/AChecker/include"]
+        "classmap": ["include"]
     }
 }
