@@ -3,6 +3,5 @@
 	"homepage": "http://github.com/fidesio/AChecker",
 
 	"autoload": {
-        "classmap": ["include"]
     }
 }
